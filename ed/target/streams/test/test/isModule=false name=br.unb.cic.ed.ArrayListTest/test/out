@@ -1,0 +1,5 @@
+[0m[[0m[0minfo[0m] [0m[0m[32mArrayListTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- An empty ArrayList must have size == 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- An list with three elements must have size == 3[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- The element of index 1 in the list [10, 100, 1000] must be 10[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- A call to the element function with an invalid index should return ???[0m[0m

@@ -1,0 +1,17 @@
+[0m[[0m[0mdebug[0m] [0m[0mPackaging /home/raylan/Documentos/testeScala/ed/target/scala-2.13/ed_2.13-0.0.1.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/raylan/Documentos/testeScala/ed/target/scala-2.13/classes[0m
+[0m[[0m[0mdebug[0m] [0m[0m	br[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/raylan/Documentos/testeScala/ed/target/scala-2.13/classes/br[0m
+[0m[[0m[0mdebug[0m] [0m[0m	br/unb[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/raylan/Documentos/testeScala/ed/target/scala-2.13/classes/br/unb[0m
+[0m[[0m[0mdebug[0m] [0m[0m	br/unb/cic[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/raylan/Documentos/testeScala/ed/target/scala-2.13/classes/br/unb/cic[0m
+[0m[[0m[0mdebug[0m] [0m[0m	br/unb/cic/ed[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/raylan/Documentos/testeScala/ed/target/scala-2.13/classes/br/unb/cic/ed[0m
+[0m[[0m[0mdebug[0m] [0m[0m	br/unb/cic/ed/ArrayList.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/raylan/Documentos/testeScala/ed/target/scala-2.13/classes/br/unb/cic/ed/ArrayList.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	br/unb/cic/ed/List.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/raylan/Documentos/testeScala/ed/target/scala-2.13/classes/br/unb/cic/ed/List.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mDone packaging.[0m

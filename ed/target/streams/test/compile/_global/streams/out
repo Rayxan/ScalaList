@@ -1,0 +1,19 @@
+[0m[[0m[31merror[0m] [0m[0m/home/raylan/Documentos/testeScala/ed/src/test/scala/ArrayListTest.scala:3:12: object scalatest is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.scalatest.funsuite.AnyFunSuite[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/raylan/Documentos/testeScala/ed/src/test/scala/ArrayListTest.scala:5:29: not found: type AnyFunSuite[0m
+[0m[[0m[31merror[0m] [0m[0mclass ArrayListTest extends AnyFunSuite {[0m
+[0m[[0m[31merror[0m] [0m[0m                            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/raylan/Documentos/testeScala/ed/src/test/scala/ArrayListTest.scala:7:5: not found: value test[0m
+[0m[[0m[31merror[0m] [0m[0m    test("An empty ArrayList must have size == 0"){[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/raylan/Documentos/testeScala/ed/src/test/scala/ArrayListTest.scala:13:5: not found: value test[0m
+[0m[[0m[31merror[0m] [0m[0m    test("An list with three elements must have size == 3"){[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/raylan/Documentos/testeScala/ed/src/test/scala/ArrayListTest.scala:23:5: not found: value test[0m
+[0m[[0m[31merror[0m] [0m[0m    test("The element of index 1 in the list [10, 100, 1000] must be 10"){[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/raylan/Documentos/testeScala/ed/src/test/scala/ArrayListTest.scala:33:5: not found: value test[0m
+[0m[[0m[31merror[0m] [0m[0m    test("A call to the element function with an invalid index should return ???"){[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m6 errors found[0m
