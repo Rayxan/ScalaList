@@ -17,8 +17,8 @@ class ArrayList extends List {
             Some(elements(pos))
         else None
 
-    def find(value: Int): Int ={
-        var found = 0 
+    def find(value: Int): Option[Int] ={
+        var found = -1 
         var range = 10
         var  i = 0
 
@@ -30,7 +30,9 @@ class ArrayList extends List {
         }
 
         if(found >=0)
-            return found
-        else return -1
+            Some(found)
+        else None
     }
+
+    
 }

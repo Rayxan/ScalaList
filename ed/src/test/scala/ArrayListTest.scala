@@ -30,7 +30,7 @@ class ArrayListTest extends AnyFunSuite {
         assert(Some(100) == list.elementAt(1)) //Some indica situação onde não ocorreu um erro
     }
 
-    test("A call to the element function with an invalid index should return ???"){
+    test("A call to the element function with an invalid index should return None"){
         val list = new ArrayList()
 
         list.insert(0,10)
@@ -49,9 +49,11 @@ class ArrayListTest extends AnyFunSuite {
         list.insert(1, 60)
         list.insert(2, 70)
 
-        var number = 50
+        var number = 60
 
-        assert( 0 == list.find(number))
+        assert(Some(1) == list.find(number))
+        assert(None == list.find(20))
+        assert(None == list.find(35))
 
     }
 
