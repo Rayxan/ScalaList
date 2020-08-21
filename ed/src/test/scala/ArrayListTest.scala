@@ -42,10 +42,23 @@ class ArrayListTest extends AnyFunSuite {
         assert(None == list.elementAt(3))
     }
 
+    test("The element was found"){
+        val list =  new ArrayList()
+
+        list.insert(0, 50)
+        list.insert(1, 60)
+        list.insert(2, 70)
+
+        var number = 50
+
+        assert( 0 == list.find(number))
+
+    }
+
     //TODO : Escrever casos de testes adicionais
     //para as seguintes opecacoes:
     //(a) remove
-    //(b) find
+    //(b) find (done)
     //(c) testes adicionais para situacoes nao cobertas nos casos 
     //    de testes atuais.
 }

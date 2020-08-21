@@ -12,6 +12,25 @@ class ArrayList extends List {
         }
     }
 
-    def elementAt(pos: Int): Option[Int] = if(pos >= 0 && pos < total) Some(elements(pos)) else None
+    def elementAt(pos: Int): Option[Int] = 
+        if(pos >= 0 && pos < total)
+            Some(elements(pos))
+        else None
 
+    def find(value: Int): Int ={
+        var found = 0 
+        var range = 10
+        var  i = 0
+
+        while( i < range ){
+            if (value == elements(i)){
+                found = i
+            }
+            i += 1;
+        }
+
+        if(found >=0)
+            return found
+        else return -1
+    }
 }
