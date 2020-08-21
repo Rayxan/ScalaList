@@ -62,3 +62,11 @@ class ArrayListTest extends AnyFunSuite {
     //(c) testes adicionais para situacoes nao cobertas nos casos 
     //    de testes atuais.
 }
+
+//Na operação de remover eu faço isso:
+/*
+Acho o elemento,
+Elimino ele,
+Faço um for com os elementos posteriores a ele
+Decremento a posição de todos em 1
+*/
