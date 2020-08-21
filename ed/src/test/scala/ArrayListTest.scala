@@ -57,18 +57,22 @@ class ArrayListTest extends AnyFunSuite {
 
     }
 
+    test("The element at the especified position was deleted"){
+        val list = new ArrayList()
+
+        list.insert(0,8)
+        list.insert(1,9)
+        list.insert(2,10)
+
+        list.delete(0)
+
+        assert(2 == list.size())
+    }
+
     //TODO : Escrever casos de testes adicionais
     //para as seguintes opecacoes:
-    //(a) remove
+    //(a) remove (done)
     //(b) find (done)
     //(c) testes adicionais para situacoes nao cobertas nos casos 
     //    de testes atuais.
 }
-
-//Na operação de remover eu faço isso:
-/*
-Acho o elemento,
-Elimino ele,
-Faço um for com os elementos posteriores a ele
-Decremento a posição de todos em 1
-*/

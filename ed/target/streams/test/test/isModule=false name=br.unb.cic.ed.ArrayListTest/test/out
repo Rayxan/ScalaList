@@ -4,3 +4,4 @@
 [0m[[0m[0minfo[0m] [0m[0m[32m- The element of index 1 in the list [10, 100, 1000] must be 10[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m- A call to the element function with an invalid index should return None[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m- The element was found[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- The element at the especified position was deleted[0m[0m

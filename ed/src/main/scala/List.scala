@@ -5,5 +5,5 @@ trait List {
   def insert(pos: Int, value: Int): Unit //Unit é o equivalente a void
   def elementAt(pos: Int): Option[Int]
   def find(value: Int): Option[Int]
-  // def delete()
+  def delete(pos: Int) : Unit
 }

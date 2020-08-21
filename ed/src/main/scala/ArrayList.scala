@@ -17,7 +17,7 @@ class ArrayList extends List {
             Some(elements(pos))
         else None
 
-    def find(value: Int): Option[Int] ={
+    def find(value: Int): Option[Int] = {
         var found = -1 
         var range = 10
         var  i = 0
@@ -32,6 +32,24 @@ class ArrayList extends List {
         if(found >=0)
             Some(found)
         else None
+    }
+
+    def delete(pos: Int): Unit = {
+        var range = 10 
+        var i = 0
+        var position = pos
+
+        if(pos >= 0 && pos <= total){
+            elements(pos) = 0
+            
+            while( position < range-1){
+                elements(position) = elements(position+1)
+
+                position += 1
+            }
+
+            total -= 1
+        }
     }
 
     
